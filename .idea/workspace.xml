@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3048c522-5fe0-4a6d-bfeb-7d5f9985af5f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../mimir" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/config/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/config/db_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/dateutil.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/errors.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/io_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../common/timer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_base/car_exposure_store.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_base/car_source_store.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_base/car_spec_store.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_base/che300_store.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_base/clue_store.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_base/consign_clue_store.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_base/consign_human_price_store.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_base/consign_rule_sta_store.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_base/contract_store.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_base/data_store.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_base/db_store.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_base/evaluate_store.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_base/g3_car_pred_price_store.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_base/g3_dealer_store.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_base/loan_store.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_base/recheck.tsv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_base/recheck_store.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_base/sql_engine_store.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../data_base/task_store.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ecode/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ecode/error_code.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../feature/car_source_feature_extractor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../feature/extract_feature_behavior.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../feature/extract_feature_exposure.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../log/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model/encoder.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model/linear_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model/model_store.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model/predictor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/Bconsign/data/fetch_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/Bconsign/purchase_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/Bconsign/rule.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/ana_deal_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/ana_evaluate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/ana_expect_promote.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/ana_price_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/ana_profit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/ana_promote_price.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/ana_promote_price_new.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/ana_shangan.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/ana_short_time_sale.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/build_dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/compare_06.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/consign_price_ana.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/dark_launch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/diff_city_ana.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/extractor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/human_price_limit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/model_price_coverage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/new_car.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/new_car_launch/car_id_matcher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/new_car_launch/chesanbai_shangshi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/new_car_launch/cheyipai_shangshi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/new_car_launch/compare.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/new_car_launch/copy_to.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/new_car_launch/guazi_shangshi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/new_car_launch/jiageshuaijian.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/new_car_launch/read_crawler_4sprice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/new_year_sign_rate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/now_deal_prob.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/price.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/price_clue.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/price_high.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/recheck_check_diff.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/sales.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/seasonal_price_change.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/sign_rate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/stock.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/temp.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/analysis/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/c2b_pred_price/consign_clue.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/c2b_pred_price/generate_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/daily_report/.ipynb_checkpoints/ana_clue_ids-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/daily_report/.ipynb_checkpoints/car_structure-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/daily_report/.ipynb_checkpoints/daily_report-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/daily_report/car_structure/.ipynb_checkpoints/car_structure-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/daily_report/car_structure/car_structure.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/daily_report/car_structure/dash_daily_structure.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/daily_report/car_structure/send_dash_structure.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/daily_report/config_db_url.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/daily_report/db_sql.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/daily_report/etl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/daily_report/mail_senders.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/daily_report/no_input.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/daily_report/pred_price/.ipynb_checkpoints/daily_report-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/daily_report/pred_price/abtest_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/daily_report/pred_price/daily_report.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/daily_report/pred_price/daily_report.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/daily_report/pred_price/dash_daily.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/daily_report/pred_price/no_input.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/daily_report/pred_price/send_dash.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/daily_report/price_level/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/daily_report/price_level/.ipynb_checkpoints/price_level-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/daily_report/price_level/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/daily_report/price_level/curl_post.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/daily_report/price_level/dash_daily.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/daily_report/price_level/no_input.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/daily_report/price_level/price_level.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/daily_report/price_level/price_level.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/daily_report/price_level/send_dash.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/daily_report/stock/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/daily_report/stock/.ipynb_checkpoints/stock_price_factor-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/daily_report/stock/dash_daily.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/daily_report/stock/no_input.tpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/daily_report/stock/send_dash.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/daily_report/stock/stock_price_factor.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/daily_report/util.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/data/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/data/dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/data/etl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/data/eval_conisgn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/data/fetch.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/data/price_4s_sql.SQL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/data/write_to_db.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/finance_tag/curl_post.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/finance_tag/finance_tag.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/finance_tag/mail_senders.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/finance_tag/run_finance_tag.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/finance_tag/send_dash.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/model_online/car_id_eval.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/model_online/curl_service.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/model_online/ecal_distribution_with_ext.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/model_online/eval_distribution_without_ext.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/model_online/eval_price_by_car_id.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/model_online/generate_new_log.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/model_online/generate_request.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/model_online/purchase_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/recheck/ana_check_recheck.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/recheck/diff_report.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/recheck/generate_curl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/recheck/generate_dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/recheck/get_check_recheck_report.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/recheck/guazi_api_caller.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/recheck/new_check_curl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/recheck/recheck_report_eval.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/util/eval.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/util/generate_rules.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/util/overall.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/util/single.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/util/target.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/consign/util/tf_idf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/deal_rate/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/deal_rate/offline/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/deal_rate/offline/analysis.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/deal_rate/offline/calib_deal_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/deal_rate/offline/calib_white_deal_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/deal_rate/offline/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/deal_rate/offline/deal_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/deal_rate/offline/evaluation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/deal_rate/offline/fetch_data/fetch_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/deal_rate/offline/fetch_data/fetch_dealer_check.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/deal_rate/offline/fetch_data/fetch_exposure_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/deal_rate/offline/fetch_data/fetch_white_model_price.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/deal_rate/offline/fetch_data/get_exposure_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/deal_rate/offline/load_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/deal_rate/offline/train.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/deal_rate/offline/white_deal_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/deal_rate/online/fetch_dealer_check.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/deal_rate/online/fetch_exposure_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/deal_rate/online/fetch_white_model_price.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/discount/offline/analysis/clue_distribution.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/discount/offline/analysis/consign_price_ana.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/discount/offline/analysis/diff_city_ana.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/discount/offline/analysis/final_price_factor_city.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/discount/offline/analysis/finance_pretect.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/discount/offline/analysis/human_price_limit.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/discount/offline/analysis/model_price_coverage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/discount/offline/analysis/new_car_launch/car_id_matcher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/discount/offline/analysis/new_car_launch/chesanbai_shangshi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/discount/offline/analysis/new_car_launch/cheyipai_shangshi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/discount/offline/analysis/new_car_launch/compare.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/discount/offline/analysis/new_car_launch/copy_to.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/discount/offline/analysis/new_car_launch/guazi_shangshi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/discount/offline/analysis/new_car_launch/jiageshuaijian.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/discount/offline/analysis/new_car_launch/read_crawler_4sprice.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/discount/offline/analysis/new_year_sign_rate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/discount/offline/analysis/operator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/discount/offline/analysis/price_high.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/discount/offline/analysis/purchase_model0319.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/discount/offline/analysis/purchase_target.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/discount/offline/analysis/sales.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/discount/offline/analysis/seasonal_price0323.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/discount/offline/analysis/seasonal_price_change.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/discount/offline/analysis/sign_rate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/discount/offline/calibrate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/discount/offline/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/discount/offline/data/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/discount/offline/data/dataset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/discount/offline/data/etl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/discount/offline/data/fetch.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/discount/offline/deal_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/discount/offline/discount_rate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/discount/offline/fetch_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/discount/offline/predict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/discount/offline/train_discount.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/discount/offline/train_discount_prob_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/loan/evaluate_profit_models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/loan/loan_model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/loan/loan_model_LR.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/loan/loan_modeler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../model_base/loan/predict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tools/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tools/mail_senders.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../util/evaluation.py" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="car" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/calcul.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="47" />
+    <option name="y" value="92" />
+    <option name="width" value="1400" />
+    <option name="height" value="782" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="car" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="car" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python" editBeforeRun="true">
+      <module name="car" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/py36/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/calcul.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="calcul" type="PythonConfigurationType" factoryName="Python" editBeforeRun="true" temporary="true">
+      <module name="car" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/py36/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/calcul.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.calcul" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3048c522-5fe0-4a6d-bfeb-7d5f9985af5f" name="Default Changelist" comment="" />
+      <created>1551610812807</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551610812807</updated>
+      <workItem from="1551610814181" duration="1261000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1261000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="47" y="92" width="1400" height="782" extended-state="1" />
+    <layout>
+      <window_info id="Favorites" sideWeight="0.5010799" side_tool="true" visible="true" weight="0.2496318" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49892008" visible="true" weight="0.2496318" />
+      <window_info id="Structure" order="1" sideWeight="0.5010799" side_tool="true" weight="0.2496318" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" visible="true" weight="0.3289855" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/hello.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calcul.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
